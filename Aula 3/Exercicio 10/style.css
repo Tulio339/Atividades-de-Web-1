@@ -1,0 +1,26 @@
+.Tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+.Tabela th{
+    background: #290fbc;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.Tabela td{
+    padding: 10px;
+    text-align: center;
+}
+.Tabela td:nth-child(1){
+    text-align: left;
+}
+.Tabela th,td{
+    border: 1px solid #000000;
+} 
+.Tabela  tr:nth-child(even) {
+    background: #7a92e9;
+}
+.Tabela tr:hover {
+    background: lightcoral;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: blanchedalmond;
+        }
+
+        input {
+            margin-bottom: 20px;
+            padding: 8px;
+            width: 200px;
+            color: black;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+             border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0021fb;
+        }
+
+        p{
+            color :aliceblue
+        }
+    </style>
+
+    <title>Exercicio 4</title>
+
+</head>
+
+<body>
+
+    <h1 style="Color:white">Exercicio 4</h1>
+    
+    <label for="nome">Nome:</label>
+
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+    <br><br>
+
+    <label for="idade">Idade:</label>
+
+    <input type="number" id="idade" placeholder="Digite sua idade">
+
+    <br><br>
+
+    <button onclick="criarEExibirPessoa()">Criar e Exibir</button>
+
+    <p id="mensagem"></p>
+
+    <script src="exercicio4.js"></script>
+
+</body>
+
+</html>

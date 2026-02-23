@@ -1,0 +1,23 @@
+.Tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+.Tabela th{
+    background-color: #290fbc;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.Tabela td{
+    padding: 10px;
+    text-align: center;
+}
+.Tabela td:nth-child(1){
+    text-align: left;
+}
+.Tabela th,td{
+    border: 1px solid #000000;
+} 
+.Tabela tbody tr:nth-child(odd) {
+    background-color: #7a92e9;
+}

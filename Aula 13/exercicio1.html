@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 1 - Botão</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        button { font-size: 16px; padding: 10px 15px; }
+    </style>
+</head>
+<body>
+
+    <h1>Exercício 1: Alterar Texto do Botão</h1>
+    <button id="meuBotao">Clique em mim</button>
+
+    <script>
+      
+        $(document).ready(function(){
+           
+            $('#meuBotao').click(function(){
+               
+                $(this).text('Você clicou aqui!');
+            });
+        });
+    </script>
+
+</body>
+</html>

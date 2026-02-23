@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Exercicio 6</title>
+</head>
+<body>
+    <h1>Exercicio 6</h1>
+
+    <img src="https://www.cnet.com/a/img/resize/f4fc80eb7104f1436e10e68a2fa74b487997d78e/hub/2018/09/07/2e94d7a1-6256-4ef7-b0e8-7fe6001dc236/playstation-spiderman-videojuego-2.jpg?auto=webp&fit=crop&height=675&width=1200" alt="Imagem do Spiderman " style="width: 200px; height: 150px; margin: 10px; border-radius: 8px; display: inline-block;">
+
+
+    <script>
+        $(document).ready(function(){
+            $("img").hover(function(){
+                $("img").css("border", "10px solid black");
+            });
+            $("img").mouseleave(function(){
+                $("img").css("border", "none");
+            });
+        });
+    </script>
+</body>
+</html>

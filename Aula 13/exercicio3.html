@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 3 - Tabela</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { border-collapse: collapse; width: 60%; margin-top: 20px; }
+        th, td { border: 1px solid #555; padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+
+    <h1>Exercício 3: Mudar Fundo das Colunas da Tabela</h1>
+
+    <table>
+      <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Estoque</th>
+            <th>Categoria</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Notebook</td>
+            <td>R$ 3.500</td>
+            <td>35</td>
+            <td>Informática</td>
+        </tr>
+        <tr>
+            <td>Mouse</td>
+            <td>R$ 80</td>
+            <td>150</td>
+            <td>Periféricos</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script>
+        $(document).ready(function(){
+      
+            $('th:nth-child(odd), td:nth-child(odd)').css('background-color', 'yellow');
+            
+          
+            $('th:nth-child(even), td:nth-child(even)').css('background-color', 'lightgreen');
+        });
+    </script>
+
+</body>
+</html>

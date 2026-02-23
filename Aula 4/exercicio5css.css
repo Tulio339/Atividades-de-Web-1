@@ -1,0 +1,17 @@
+.First{
+    background: orange;
+    border: solid 10px;
+    border-color:green;
+    height:100px;
+    width:100%;
+}
+.Second{
+    background: purple;
+    border: solid 10px;
+    border-top-color:rgb(246, 255, 0);
+    border-bottom-color:rgb(246, 255, 0);
+    border-left-color:brown;
+    border-right-color:brown;
+    height:100px;
+    width:100%;
+}

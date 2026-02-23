@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 4 - Parágrafo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        p { line-height: 1.6; }
+        button { font-size: 16px; padding: 10px 15px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    
+    <h1>Exercício 4: Alterar Cor do Terceiro Parágrafo</h1>
+
+    <p>Este é o primeiro parágrafo.</p>
+    <p>Este é o segundo parágrafo.</p>
+    <p>Este é o <strong>terceiro parágrafo</strong>. Ele vai mudar de cor.</p>
+    <p>Este é o quarto parágrafo.</p>
+
+    <button id="btnMudarCor">Mudar Cor</button>
+
+    <script>
+        $(document).ready(function(){
+           
+            $('#btnMudarCor').click(function(){
+           
+                $('p:eq(2)').css('color', 'red');
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2 - Div com ID</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        div {
+            padding: 15px;
+            border: 1px solid #333;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercício 2: Alterar Cor de Fundo da Div com ID</h1>
+    
+    <div>Esta é a primeira div.</div>
+    <div id="div-alvo">Esta é a segunda div, com o ID específico.</div>
+    <div>Esta é a terceira div.</div>
+
+    <script>
+        $(document).ready(function(){
+          
+            $('#div-alvo').css('background-color', 'lightblue');
+        });
+    </script>
+
+</body>
+</html>

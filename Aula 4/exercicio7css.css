@@ -1,0 +1,10 @@
+.Paragrafo1 {
+   text-decoration: underline;
+}
+.Paragrafo2 {
+    text-indent: 50px;
+ text-decoration: overline;
+}
+.Paragrafo3 {
+    text-decoration: line-through;
+}

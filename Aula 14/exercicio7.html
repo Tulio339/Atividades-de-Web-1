@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>Exercicio 7</title>
+</head>
+<body>
+    <h1>Exercicio 7</h1>
+    <div style="width: 200px; height: 150px; margin: 10px; border-radius: 8px; background-color: #03076b;"></div>
+
+    <script>
+       $(document).ready(function(){
+        $("div").click(function(){
+            $("div").animate({marginLeft: '+=100px'}, 500);
+        });
+        $("div").click(function(){
+            $("div").animate({
+                left: '250px',
+                opacity: '0.5',
+                height: '150px',
+                width: '150px'
+            });
+        });
+        $("div").click(function(){
+            $("div").animate({
+                left: '250px',
+                height: '+=150px',
+                width: '+=150px'
+            });
+        });
+        $("div").click(function(){
+            var div = $("div");
+            div.animate({height: '300px', opacity: '0.4'}, "slow");
+            div.animate({width: '300px', opacity: '0.8'}, "slow");
+            div.animate({height: '100px', opacity: '0.4'}, "slow");
+            div.animate({width: '100px', opacity: '0.8'}, "slow");
+       });
+       $("div").click(function(){
+            var div = $("div");
+            div.animate({left: '100px'}, "slow");
+            div.animate({fontSize: '3em'}, "slow");
+       });
+       });
+    </script>
+</body>
+</html>

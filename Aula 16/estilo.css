@@ -1,0 +1,103 @@
+/* estilo.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #0056b3;
+    text-align: center;
+}
+
+.form-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #218838;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.actions a, .actions button {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+.actions button {
+    background-color: #ffc107; /* Amarelo para editar */
+}
+.actions button:hover {
+    background-color: #e0a800;
+}
+
+.actions a {
+    background-color: #dc3545; /* Vermelho para excluir */
+}
+.actions a:hover {
+    background-color: #c82333;
+}
